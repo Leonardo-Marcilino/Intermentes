@@ -1,0 +1,15 @@
+:root {
+  --poppins-font: "Poppins", sans-serif;
+  --montserrat-alternates-font: "Montserrat Alternates", sans-serif;
+  --cor-roxo-forte: #B66FD8;
+  --cor-roxo-leve: #C9A0DC;
+  --cor-laranja-leve: #FFC773;
+  --cor-laranja-forte: #FFA500;
+  --cor-branca: #FBFBFB;
+  --cor-preta: #232323;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
