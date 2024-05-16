@@ -1,0 +1,131 @@
+header{
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 192rem;
+}
+.MenuLinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BoxLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BoxLogo a {
+    width: 15rem;
+    height: 11rem;
+}
+.BoxLogo a img {
+    width: 100%;
+    height: 100%;
+}
+.BoxLogo p {
+    font-size: 1.3rem;
+    font-weight: var(--SemiBold);
+    color: var(--cor-roxo-forte);
+    font-family: var(--montserrat-alternates-font);
+}
+.ListaLinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    font-family: var(--poppins-font);
+    font-weight: var(--SemiBold);
+}
+.ListaLinks .LinkItem{
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.8s all;
+} 
+.ListaLinks .LinkItem a{
+    transition: 0.5s all;
+} 
+.ListaLinks .LinkItem a:hover{
+   color: var(--cor-roxo-forte);
+   transform: scale(1.05);
+} 
+
+.ListaLinks .LiDropMenu{
+    position: relative;
+}
+.LiDropMenu .DropMenu{
+    visibility: hidden;
+    transition: 0.8s all;
+
+    position: absolute;
+    width: 22.9rem;
+    height: 0rem;
+    background-color: var(--cor-laranja-leve);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  
+    border: 3px solid rgba(182, 111, 216, 0.4);
+    border-radius: 2rem;
+    right: -8rem;
+    top: 5rem;
+    overflow: hidden;
+
+}
+.DropMenuBox .TitleDropMenu {    
+    font-size: 1.6rem;
+    color: var(--cor-branca);
+}
+.DropMenuBox .DescriptionDropMenu {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+}
+.DropMenuBox .CorRoxa{
+    color: var(--cor-roxo-forte);
+}
+.DropMenuBox .Show{
+    visibility: hidden;
+}
+.ListaLinks .LiDropMenu:hover .DropMenu{
+    visibility: visible;
+    transition: 1s all;
+    height: 33.3rem;
+    padding: 2rem;
+}
+.ListaLinks .LiDropMenu:hover .DropMenu .DropMenuBox .Show{
+    visibility: visible;
+}
+/* @keyframes DropMenu {
+    to{height: 33.3rem;}
+} */
+.BoxAcessar{    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    font-size: 2.5rem;
+    font-family: var(--poppins-font);
+    font-weight: var(--SemiBold);
+    
+}
+.BoxAcessar .Entrar{
+    transition: 0.8s all;
+}
+.BoxAcessar .Entrar:hover{    
+    color: var(--cor-roxo-forte);
+}
+.BoxAcessar .Cadastrar{    
+    background-color: var(--cor-roxo-forte);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+
+    color: var(--cor-branca);
+    transition: 0.8s all; 
+}
+.BoxAcessar .Cadastrar:hover{    
+    background-color: var(--cor-branca);
+    color: var(--cor-roxo-forte);
+}

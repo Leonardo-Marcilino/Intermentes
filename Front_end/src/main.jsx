@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './root.css'
 import './reset.css'
+import './root.css'
+import Header from './assets/Componentes/Header/Header'
+import Footer from './assets/Componentes/Footer/Footer'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    aaaaaa
+    <Header />
+    <Footer />
   </React.StrictMode>
 )

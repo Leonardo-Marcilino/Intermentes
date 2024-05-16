@@ -7,11 +7,15 @@
   --cor-laranja-forte: #FFA500;
   --cor-branca: #FBFBFB;
   --cor-preta: #232323;
+  --Bold: 700;
+  --SemiBold: 600;
+  --Ligth: 300;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cor-branca);
 }
 
 /* a{
