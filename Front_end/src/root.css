@@ -16,6 +16,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--cor-branca);
+  font-size: 62.5%;
 }
 
 /* a{
