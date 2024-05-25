@@ -10,6 +10,7 @@
   --Bold: 700;
   --SemiBold: 600;
   --Ligth: 300;
+  --Max-window-width: 1920px;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

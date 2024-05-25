@@ -1,10 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+    box-sizing: border-box; 
+    border: none; 
 }
 a{
     color: var(--cor-preta);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
 }
