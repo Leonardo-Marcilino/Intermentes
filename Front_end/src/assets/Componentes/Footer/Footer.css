@@ -1,12 +1,14 @@
 footer{
     position: relative;
     width: 100%;
+    max-width: 192rem;
     height: auto;
     font-family: var(--poppins-font);
     background-image: url(../../Images/FooterImg/Background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 .Container{
     width: 100%;
