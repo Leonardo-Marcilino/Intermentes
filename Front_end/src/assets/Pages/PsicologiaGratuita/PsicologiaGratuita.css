@@ -1,0 +1,41 @@
+.MainPsicologiaGratuita{
+    width: 100%;
+    max-width: var(--Max-window-width);
+    height: auto;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+.MainPsicologiaGratuita .Cabecalho{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.MainPsicologiaGratuita .BoxImg{
+    width: 500px;
+    height: 50rem;
+}
+.MainPsicologiaGratuita img{
+    width: 100%;
+    height: 100%;
+}
+.MainPsicologiaGratuita .ContainterText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: var(--SemiBold);
+}
+.MainPsicologiaGratuita .ContainterText h1{
+    font-family: var(--montserrat-alternates-font);
+    font-size: 3rem;
+    width: 35rem;
+}
+.MainPsicologiaGratuita .ContainterText p{
+    font-family: var(--poppins-font);
+    font-size: 1.6rem;
+    width: 41rem;
+}
