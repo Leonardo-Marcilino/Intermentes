@@ -1,17 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Routes from './Router'
 import './reset.css'
 import './root.css'
 import Header from './assets/Componentes/Header/Header'
 import Footer from './assets/Componentes/Footer/Footer'
-import Beneficiario from './assets/Pages/Beneficiario/Beneficiario'
+
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
-    <Beneficiario />
-    <Footer />
+    <Router>
+        <Header />
+        <Routes />
+        <Footer />
+    </Router>
   </React.StrictMode>
 )

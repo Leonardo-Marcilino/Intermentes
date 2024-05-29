@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Header.css'
 import Logo from '../../Images/Icons/Logo.png'
 
@@ -18,29 +19,30 @@ function Header() {
                     <li className='LinkItem LiDropMenu'>
                         <a>Serviços</a>
                         <div className='DropMenu'>
-                            <a href="">
+                            <a>
                                 <div className='DropMenuBox'>
                                     <p className='TitleDropMenu Show'>Para especialistas</p>
                                     <p className='DescriptionDropMenu Show'>Compartilhe seu trabalho conosco e não saia perdendo</p>
                                 </div>
                             </a>
-                            <a href="">
+                            <Link to={'/Beneficiario'}>
                                 <div className='DropMenuBox'>
                                     <p className='TitleDropMenu Show'>Para beneficiários</p>
                                     <p className='DescriptionDropMenu Show'>O cuidado que precisa em apenas um lugar</p>
                                 </div>
-                            </a>
-                            <a href="">
+                            </Link>
+
+                            <Link to={'/PsicologiaGratuita'}>
                                 <div className='DropMenuBox'>
                                     <p className='TitleDropMenu Show'>Psicologia Gratuita</p>
                                     <p className='DescriptionDropMenu Show'>Aqui abraçamos aqueles que precisam e não tem condições</p>
                                 </div>
-                            </a>
+                            </Link>
                             <a href="">
                                 <div className='DropMenuBox'>
                                     <p className='TitleDropMenu CorRoxa Show'>Agende sua consulta</p>
                                     <p className='DescriptionDropMenu CorRoxa Show'>Encontre seu psicologo aqui e inicie a sua jornada</p>
-                                </div> 
+                                </div>
                             </a>
                         </div>
                     </li>
