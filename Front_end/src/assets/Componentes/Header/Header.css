@@ -59,7 +59,7 @@ header{
     position: absolute;
     width: 22.9rem;
     height: 0rem;
-    background-color: var(--cor-laranja-leve);
+    background-color: var(--cor-branca);
 
     display: flex;
     flex-direction: column;
@@ -67,22 +67,21 @@ header{
     justify-content: center;
     gap: 1.2rem;
   
-    border: 3px solid rgba(182, 111, 216, 0.4);
+    border: 3px solid var(--cor-laranja-forte);
     border-radius: 2rem;
     right: -8rem;
    
     overflow: hidden;
     z-index: 2;
-
 }
 .DropMenuBox .TitleDropMenu {    
     font-size: 1.6rem;
-    color: var(--cor-branca);
+    color: var(--cor-preta);
 }
 .DropMenuBox .DescriptionDropMenu {
     font-size: 1.2rem;
     font-weight: 400;
-    color: var(--cor-branca);
+    color: var(--cor-preta);
 }
 .DropMenuBox .CorRoxa{
     color: var(--cor-roxo-forte);

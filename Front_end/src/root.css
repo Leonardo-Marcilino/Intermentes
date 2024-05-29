@@ -24,3 +24,6 @@
   color: var(--cor-preta);
   font-family: var(--poppins-font);
 } */
+.CorRoxa{
+  color: var(--cor-roxo-forte);
+}

@@ -17,7 +17,7 @@ function Header() {
                     </li>
                     <li className='LinkItem LiDropMenu'>
                         <a>Serviços</a>
-                        <nav className='DropMenu'>
+                        <div className='DropMenu'>
                             <a href="">
                                 <div className='DropMenuBox'>
                                     <p className='TitleDropMenu Show'>Para especialistas</p>
@@ -42,7 +42,7 @@ function Header() {
                                     <p className='DescriptionDropMenu CorRoxa Show'>Encontre seu psicologo aqui e inicie a sua jornada</p>
                                 </div> 
                             </a>
-                        </nav>
+                        </div>
                     </li>
                     <li className='LinkItem '>
                         <a href="">Parcerias</a>
