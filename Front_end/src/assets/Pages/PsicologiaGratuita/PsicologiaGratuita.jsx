@@ -1,5 +1,7 @@
 import './PsicologiaGratuita.css'
 import ImgCabecalho from '../../Images/PsicologiaGratuitaImg/ImgCabecalho.png'
+import IconInsta from '../../Images/FooterImg/IconInsta.png'
+import IconFace from '../../Images/FooterImg/IconFace.png'
 
 export default function PsicologiaGratuita() {
     return (
@@ -14,25 +16,108 @@ export default function PsicologiaGratuita() {
                     <p>Concentramos algumas Ong’s para impulsionar o alcance do cuidado que é necessário :D</p>
                 </div>
             </section>
-            <section className='ContainerOngs'>
+            <section className='SectionOngs'>
                 <h2>ONG'S</h2>
-                <div className='BoxOngs'>
-                    <div className='block'></div>
-                    <div>
-                        <div class="social">
-                            <a href="">
-                               insta
-                            </a>
-                            <a href="">
-                               face
-                            </a>
+                <div className='ContainerOngs'>
+                    <div className='BoxOng'>
+                        <div className='BoxLogoOng'>
+                            <div className='BoxImg'>
+                                {/* <img src="" alt="" /> */}
+                            </div>
+                            <div>
+                                <div class="BoxSocial">
+                                    <a href="">
+                                        <img src={IconInsta} alt="" />
+                                    </a>
+                                    <a href="">
+                                    <img src={IconFace} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='BoxDescriptionOng'>
+                            <div className='GroupNameLocalization'>
+                                <h3>Titulo da ong</h3>
+                                <p>localização</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum iusto a tempora sint. Illum eius voluptatum possimus architecto! Laboriosam sunt ipsa quis sed quo a inventore accusamus quia vitae.</p>
+                            <a href="" className='BtnOng'>Como agendar sessão</a>
                         </div>
                     </div>
-                    <div>
-                        <h3>Titulo da ong</h3>
-                        <p>localização</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum iusto a tempora sint. Illum eius voluptatum possimus architecto! Laboriosam sunt ipsa quis sed quo a inventore accusamus quia vitae.</p>
-                        <a href="">Como agendar sessão</a>
+                    <div className='BoxOng'>
+                        <div className='BoxLogoOng'>
+                            <div className='BoxImg'>
+                                {/* <img src="" alt="" /> */}
+                            </div>
+                            <div>
+                                <div class="BoxSocial">
+                                    <a href="">
+                                        <img src={IconInsta} alt="" />
+                                    </a>
+                                    <a href="">
+                                    <img src={IconFace} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='BoxDescriptionOng'>
+                            <div className='GroupNameLocalization'>
+                                <h3>Titulo da ong</h3>
+                                <p>localização</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum iusto a tempora sint. Illum eius voluptatum possimus architecto! Laboriosam sunt ipsa quis sed quo a inventore accusamus quia vitae.</p>
+                            <a href="" className='BtnOng'>Como agendar sessão</a>
+                        </div>
+                    </div>
+                    <div className='BoxOng'>
+                        <div className='BoxLogoOng'>
+                            <div className='BoxImg'>
+                                {/* <img src="" alt="" /> */}
+                            </div>
+                            <div>
+                                <div class="BoxSocial">
+                                    <a href="">
+                                        <img src={IconInsta} alt="" />
+                                    </a>
+                                    <a href="">
+                                    <img src={IconFace} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='BoxDescriptionOng'>
+                            <div className='GroupNameLocalization'>
+                                <h3>Titulo da ong</h3>
+                                <p>localização</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum iusto a tempora sint. Illum eius voluptatum possimus architecto! Laboriosam sunt ipsa quis sed quo a inventore accusamus quia vitae.</p>
+                            <a href="" className='BtnOng'>Como agendar sessão</a>
+                        </div>
+                    </div>
+                    <div className='BoxOng'>
+                        <div className='BoxLogoOng'>
+                            <div className='BoxImg'>
+                                {/* <img src="" alt="" /> */}
+                            </div>
+                            <div>
+                                <div class="BoxSocial">
+                                    <a href="">
+                                        <img src={IconInsta} alt="" />
+                                    </a>
+                                    <a href="">
+                                    <img src={IconFace} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='BoxDescriptionOng'>
+                            <div className='GroupNameLocalization'>
+                                <h3>Titulo da ong</h3>
+                                <p>localização</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum iusto a tempora sint. Illum eius voluptatum possimus architecto! Laboriosam sunt ipsa quis sed quo a inventore accusamus quia vitae.</p>
+                            <a href="" className='BtnOng'>Como agendar sessão</a>
+                        </div>
                     </div>
                 </div>
             </section>

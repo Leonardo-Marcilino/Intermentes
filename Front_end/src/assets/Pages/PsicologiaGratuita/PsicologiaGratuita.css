@@ -8,6 +8,9 @@
     flex-direction: column;
     align-items: center;
     gap: 10rem;
+    background-image: url('../../Images/PsicologiaGratuitaImg/Background.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 .MainPsicologiaGratuita .Cabecalho{
     display: flex;
@@ -38,4 +41,99 @@
     font-family: var(--poppins-font);
     font-size: 1.6rem;
     width: 41rem;
+}
+.SectionOngs{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+  
+}
+.SectionOngs h2{
+    font-size: 4rem;
+    font-family: var(--montserrat-alternates-font);
+    position: relative;
+    margin-left: 15rem;
+    padding-bottom: 0.5rem;
+}
+.SectionOngs h2::before{
+    content: '';
+    background-color: var(--cor-laranja-leve);
+    width: 15%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 3rem;
+}
+.SectionOngs .ContainerOngs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    width: 100%;
+    height: auto;
+}
+.ContainerOngs .BoxOng{
+    width: 90rem;
+    height: auto;
+
+    padding: 3rem 4rem;
+    background-color: var(--cor-branca);
+
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    border-radius: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.BoxOng .BoxLogoOng{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.BoxLogoOng .BoxImg{
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--cor-roxo-leve);
+    border-radius: 1rem;
+}
+.BoxLogoOng .BoxSocial{
+    display: flex;
+    gap: 1rem;
+    margin-left: 0.5rem;
+}
+.BoxSocial img{
+    width: 18px;
+    height: 18px;
+}
+.BoxOng .BoxDescriptionOng{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: var(--poppins-font);
+}
+.BoxDescriptionOng .GroupNameLocalization h3{
+    font-size: 3rem;
+    font-family: var(--montserrat-alternates-font);
+}
+.BoxDescriptionOng .GroupNameLocalization p{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.BoxDescriptionOng p{
+    font-size: 1.5rem;
+}
+.BoxDescriptionOng .BtnOng{
+    padding: 0.5rem;
+    background-color: var(--cor-laranja-leve);
+    width: 20rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: var(--SemiBold);
+    font-family: var(--poppins-font);
+    border-radius: 5px;
 }

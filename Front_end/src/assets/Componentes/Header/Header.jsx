@@ -58,8 +58,8 @@ function Header() {
                     </li>
                 </ul>
                 <div className='BoxAcessar'>
-                    <a href="" className='Entrar'>Entrar</a>
-                    <a href="" className='Cadastrar'>Cadastrar</a>
+                <Link to={'/Login'}><a href="" className='Entrar'>Entrar</a></Link>
+                <Link to={'/Login'}><a href="" className='Cadastrar' >Cadastrar</a></Link>
                 </div>
             </nav>
         </header>

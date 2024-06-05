@@ -1,0 +1,71 @@
+.MainUserHome{
+    width: 100%;
+    max-width: var(--Max-window-width);
+    height: auto;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    /* Teste de bg */
+    background-image: url('../../Images/PsicologiaGratuitaImg/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.MainUserHome .Cabecalho{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+.Cabecalho .BoxImg{
+    width: 60rem;
+    height: 60rem;
+}
+.Cabecalho .BoxImg img{
+    width: 100%;
+    height: 100%;
+}
+.MainUserHome .BoxTextCabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 52rem;
+
+    gap: 4rem;
+    font-weight: var(--SemiBold);
+}
+.BoxTextCabecalho h1{
+    font-family: var(--montserrat-alternates-font);
+    font-size: 4rem;
+}
+.BoxP{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.BoxTextCabecalho p{
+    font-family: var(--poppins-font);
+    font-size: 2rem;
+}
+.BoxTextCabecalho .BtnAgendarConsulta{
+    width: 24rem;
+    padding: 2rem 1rem;
+
+    background-color: var(--cor-laranja-leve);
+    color: var(--cor-preta);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    border: 3px solid rgba(182, 111, 216, 0.5);
+    border-radius: 2rem;
+
+    font-weight: var(--Bold);
+    font-family: var(--poppins-font);
+}

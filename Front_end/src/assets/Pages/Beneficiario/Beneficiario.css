@@ -8,6 +8,10 @@
     flex-direction: column;
     align-items: center;
     gap: 10rem;
+    /* Teste de bg */
+    background-image: url('../../Images/PsicologiaGratuitaImg/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .BeneficiarioMain .Cabecalho{
     width: 100%;

@@ -2,12 +2,19 @@ header{
     margin: 3rem auto;
     width: 100%;
     max-width: 192rem;
+    padding: 0 4rem;
 }
 .MenuLinks{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.ContainerMenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
 }
 .BoxLogo{
     display: flex;
@@ -48,7 +55,6 @@ header{
    color: var(--cor-roxo-forte);
    transform: scale(1.05);
 } 
-
 .ListaLinks .LiDropMenu{
     position: relative;
 }
@@ -67,7 +73,7 @@ header{
     justify-content: center;
     gap: 1.2rem;
   
-    border: 3px solid var(--cor-laranja-forte);
+    border: 3px solid var(--cor-roxo-forte);
     border-radius: 2rem;
     right: -8rem;
    
@@ -92,7 +98,7 @@ header{
 .ListaLinks .LiDropMenu:hover .DropMenu{
     visibility: visible;
     transition: 1s all;
-    height: 33.3rem;
+    height: 18rem;
     padding: 2rem;
 }
 .ListaLinks .LiDropMenu:hover .DropMenu .DropMenuBox .Show{
@@ -102,34 +108,62 @@ header{
     to{height: 33.3rem;}
 } */
 .BoxAcessar{    
+    width: 20rem;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 
     font-size: 1.5rem;
     font-family: var(--poppins-font);
     font-weight: var(--SemiBold);
-    
+    color: var(--cor-roxo-forte);
+    cursor: pointer;
 }
-.BoxAcessar .Entrar{
+.BoxAcessar img{
     transition: 0.8s all;
-}
-.BoxAcessar .Entrar:hover{    
-    color: var(--cor-roxo-forte);
-}
-.BoxAcessar .Cadastrar{    
-    background-color: var(--cor-roxo-forte);
-    border-radius: 2rem;
-    padding: 1rem 2rem;
 
-    color: var(--cor-branca);
-    transition: 0.8s all; 
 }
-.BoxAcessar .Cadastrar:hover{    
+.BoxAcessar:hover .IconSetinha{
+    transform: scale(0.8);
+}
+.BoxAcessar .ContainerMenuUser{
+    position: relative;
+}
+.DropMenuUser{
+    visibility: hidden;
+
+    position: absolute;
+    border:  3px solid var(--cor-roxo-forte);
+    border-radius: 2rem;
+    right: -3rem;
+
+    width: 22rem;
+    height: 0;
+    padding: 0;
+
+    transition: 0.8s all;
+    overflow: hidden;
+
     background-color: var(--cor-branca);
-    color: var(--cor-roxo-forte);
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-size: 1.4rem;
 }
-.LogoutItem{
-    width: 2.5rem;
-    font-size: 1.2rem;
+.BoxAcessar:hover .DropMenuUser{
+    visibility: visible;
+    height: 20rem;
+    padding: 2rem;
+}
+
+.DropMenuUser .BoxItemMenu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s all;
+}
+.BoxItemMenu:hover{
+    transform: scale(0.9);
 }
